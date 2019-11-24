@@ -8,6 +8,6 @@ class SiswaController extends Controller
 {
     public function index()
     {
-        return "ini list siswa";
+        return view("siswa.index");
     }
 }
